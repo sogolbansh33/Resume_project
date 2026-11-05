@@ -1,97 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🛡️</text></svg>">
-    <title>Paul Hans Tracy D. Villas | Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paul Hans Tracy D. Villas - Resume</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-<header>
-    
-    <div class="wrap bar">
-        <a class="logo" href="#home">Home</a>
-        <nav id="nav"><a href="#about">About</a>
-            <a href="#education">Education</a>
-            <a href="#courses">Courses</a>
-            <a href="#skills">Skills</a><a href="#awards">Awards</a>
-        </nav>
-        <button class="ib" id="theme" aria-label="Toggle light and dark theme">🌓</button>
-    </div>
-</header>
+    <nav>
+        <ul>
+            <li><a href="#profile">Profile</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#courses">Courses & Training</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#honors">Honors</a></li>
+        </ul>
+        <button class="theme-toggle" id="themeToggle">Toggle Dark Mode</button>
+    </nav>
 
-<main class="wrap" id="home">
-    <div class="hero">
-        <div>
+    <div class="container">
+        <header>
+            <div class="profile-img-container">
+                <img src="photo.jpg" alt="Profile Photo of Paul Hans Tracy D. Villas">
+            </div>
             <h1>Paul Hans Tracy D. Villas</h1>
-            <p class="role"><b>BSIT Student</b> · Aspiring Cybersecurity Professional · Seeking an internship</p>
-            <div class="contacts">
-                <a class="c" href="mailto:paulhanstracy22@gmail.com">✉️ paulhanstracy22@gmail.com</a>
-                <a class="c" href="tel:09456032196">📞 09456032196</a>
-                <a class="c" href="https://www.linkedin.com/in/paul-hans-tracy-villas-771877401/" target="_blank" rel="noopener">💼 LinkedIn</a>
-                <button class="c" id="copy" type="button">📋 Copy email</button>
+            <div class="contact-info">
+                <span>Makati City, Metro Manila, Philippines</span>
+                <span>09456032196</span>
+                <a href="mailto:paulhanstracy22@gmail.com">paulhanstracy22@gmail.com</a>
+                <a href="https://www.linkedin.com/in/paul-hans-tracy-villas-771877401/" target="_blank">LinkedIn</a>
             </div>
-            <div class="btns no-print">
-                <a class="btn" href="mailto:paulhanstracy22@gmail.com">Contact me</a>
-                <button class="btn alt" id="print" type="button">Save as PDF</button>
+        </header>
+
+        <section id="profile" class="scroll-anim">
+            <h2>Profile</h2>
+            <p>Third-year Information Technology student with a solid foundation in programming and a focus on building a career in cybersecurity. Knowledgeable in security principles, threat mitigation, and access controls, and actively expanding practical skills through independent technical projects. Seeking an internship with a security or IT operations team to apply analytical skills to real-world challenges.</p>
+        </section>
+
+        <section id="education" class="scroll-anim">
+            <h2>Education</h2>
+            <div class="item">
+                <h3><span>Bachelor of Science in Information Technology (BSIT)</span> <span>Expected Graduation: July 2028</span></h3>
+                <div class="subtitle">Polytechnic University of the Philippines – Sta. Mesa</div>
+                <p><strong>Overall GWA (as of 2nd Semester A.Y. 2025-2026):</strong> 1.52</p>
+                <p><strong>Relevant Coursework:</strong> Computer Programming, Introduction to Computing, Discrete Structures, Data Structures and Algorithms, Operating Systems, Data Communications and Networking, Object Oriented Programming, Information Management, Network Administration, Human Computer Interaction, Quantitative Methods with Modeling and Simulation</p>
             </div>
-        </div>
-        <div class="pic"><img alt="Photo of Paul Hans Tracy D. Villas" src="photo.jpg"></div>
-    </div>
-    <div class="stats rv">
-        <div class="st"><b data-n="1.52" data-d="2">0</b><span>GWA · PUP BSIT</span></div>
-        <div class="st"><b data-n="2">0</b><span>Cybersecurity courses · 2026</span></div>
-        <div class="st"><b>Jul 2028</b><span>Expected graduation</span></div>
-    </div>
-    
-    <section id="about"><h2>About</h2>
-        <div class="card about rv">Third-year Information Technology student with a solid foundation in programming and a focus on building a career in cybersecurity. Knowledgeable in security principles, threat mitigation, and access controls, and actively expanding practical skills through independent technical projects. Seeking an internship with a security or IT operations team to apply analytical skills to real-world challenges.</div>
-    </section>
-    
-    <section id="education"><h2>Education</h2><div class="acc" id="edu"></div></section>
-    
-    <section id="courses"><h2>Courses &amp; Training</h2>
-        <div class="grid">
-            <div class="card cc rv">
-                <div class="ic">🛡️</div>
-                <h3>Ethical Hacker</h3>
-                <p>Cisco Networking Academy · Certificate of Completion</p>
-                <p><span class="tag">2026</span></p></div>
-                <div class="card cc rv">
-                    <div class="ic">🔐</div>
-                    <h3>Certified in Cybersecurity (CC) Course</h3>
-                    <p>ISC2 on Coursera · Certificate of Completion</p>
-                    <p><span class="tag">2026</span></p>
+            <div class="item">
+                <h3><span>Senior High School Diploma</span> <span>Graduated: June 2024</span></h3>
+                <div class="subtitle">University of Makati</div>
+                <p><strong>GWA:</strong> 94.78 | With Honors</p>
+                <p><strong>Relevant Coursework:</strong> Database Programming, Analytical Programming, Exploratory Data Analysis, Data Visualization and Storytelling</p>
+            </div>
+            <div class="item">
+                <h3><span>Junior High School Diploma</span> <span>Graduated: July 2022</span></h3>
+                <div class="subtitle">Fort Bonifacio High School</div>
+                <p><strong>GWA:</strong> 95 | With High Honors</p>
+            </div>
+        </section>
+
+        <section id="courses" class="scroll-anim">
+            <h2>Courses & Training</h2>
+            <ul>
+                <li>Certified in Cybersecurity (CC) Course by ISC2, Coursera (Certificate of Completion), 2026</li>
+                <li>Ethical Hacker, Cisco Networking Academy (Certificate of Completion), 2026</li>
+            </ul>
+        </section>
+
+        <section id="skills" class="scroll-anim">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <strong>Programming Languages:</strong> Java, Python, C, COBOL, and R
                 </div>
-            </div></section>
-            
-            <section id="skills"><h2>Skills</h2>
-                <div class="fl" id="fl" role="group" aria-label="Filter skills"></div>
-                <div class="grid" id="sk"></div></section>
-                
-                <section id="awards">
-                    <h2>Honors &amp; Awards</h2>
-                    <div class="grid">
-                        <div class="card aw rv">
-                            <div class="ic">🏅</div>
-                            <div><b>Dean’s List</b><span>University of Makati · 2022-2024</span></div>
-                        </div>
-                        <div class="card aw rv">
-                            <div class="ic">🎖️</div>
-                            <div><b>Academic Excellence Awardee</b><span>2021</span>
-                            </div>
-                        </div>
-                    </div></section>
-                </main>
-                
-                <footer>
-                    <div class="wrap">Paul Hans Tracy D. Villas · Makati City, Metro Manila, Philippines</div>
-                </footer>
-                <button class="ib" id="top" aria-label="Back to top">↑</button>
-                <div id="toast" role="status"></div>
-                
-                <script src="script.js"></script>
+                <div class="skill-category">
+                    <strong>Database Management:</strong> MySQL; database design, CRUD operations, and ERD creation
+                </div>
+                <div class="skill-category">
+                    <strong>Software Development:</strong> Object-oriented programming, Java console applications, file handling, debugging, and software testing
+                </div>
+                <div class="skill-category">
+                    <strong>Web Development:</strong> HTML, CSS, and JavaScript; simple responsive web pages
+                </div>
+                <div class="skill-category">
+                    <strong>Networking:</strong> Cisco networking, including router and switch configuration, VLANs, and troubleshooting
+                </div>
+                <div class="skill-category">
+                    <strong>UI/UX Design:</strong> Figma; wireframes and user interface prototypes
+                </div>
+                <div class="skill-category">
+                    <strong>Tools:</strong> Visual Studio Code, command line, Git, computer troubleshooting (hardware and software)
+                </div>
+                <div class="skill-category">
+                    <strong>Microsoft Office:</strong> Word, Excel, and PowerPoint for documents, data analysis, and presentations
+                </div>
+                <div class="skill-category">
+                    <strong>Soft Skills:</strong> Teamwork, adaptability, time management, communication, and problem solving
+                </div>
+            </div>
+        </section>
+
+        <section id="honors" class="scroll-anim">
+            <h2>Honors and Awards</h2>
+            <ul>
+                <li>Dean’s List, University of Makati (2022-2024)</li>
+                <li>Academic Excellence Awardee (2021)</li>
+            </ul>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
