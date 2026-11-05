@@ -71,7 +71,7 @@ const SKILLS = [
   {
     title: "Web Development",
     category: "code",
-    items: ["Basic HTML", "Basic CSS", "Basic JavaScript", "Simple responsive web pages"],
+    items: ["HTML", "CSS", "JavaScript", "Simple responsive web pages"],
   },
   {
     title: "Database Management",
@@ -87,7 +87,7 @@ const SKILLS = [
     title: "Networking",
     category: "net",
     items: [
-      "Basic Cisco networking",
+      "Cisco networking",
       "Router and switch configuration",
       "VLANs",
       "Troubleshooting",
@@ -96,7 +96,7 @@ const SKILLS = [
   {
     title: "UI/UX Design",
     category: "tools",
-    items: ["Basic Figma", "Wireframes", "UI prototypes"],
+    items: ["Figma", "Wireframes", "UI prototypes"],
   },
   {
     title: "Tools",
@@ -104,7 +104,7 @@ const SKILLS = [
     items: [
       "Visual Studio Code",
       "Command line",
-      "Git (basic)",
+      "Git",
       "Hardware and software troubleshooting",
     ],
   },
